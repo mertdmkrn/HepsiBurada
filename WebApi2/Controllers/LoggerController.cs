@@ -17,11 +17,5 @@ namespace WebApi2.Controllers
         {
             _customLogger.Log(message);
         }
-
-        [HttpGet(Name = "read")]
-        public void Read()
-        {
-
-        }
     }
 }
