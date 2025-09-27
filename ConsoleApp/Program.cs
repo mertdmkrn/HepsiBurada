@@ -12,7 +12,7 @@ public class Program
         var proposedAmount = proposedInv.GetInvoiceDiscount(1000);
         var testAmount = testInv.GetInvoiceDiscount(1000);
 
-        Console.WriteLine($"finalAmount : {finalAmount} | proposedAmount : {proposedAmount} | testAmount : {testAmount}");
+        Console.WriteLine($"finalAmount : {finalAmount} || proposedAmount : {proposedAmount} || testAmount : {testAmount}");
         Console.ReadLine();
     }
 }
